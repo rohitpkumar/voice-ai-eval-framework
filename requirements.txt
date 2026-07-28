@@ -1,0 +1,24 @@
+# Deepgram SDK — Speech to Text (STT)
+deepgram-sdk==4.0.0
+
+# OpenAI SDK — LLM brain of the agent
+openai==1.97.0
+
+# gTTS — generates audio fixture .wav files for free
+gTTS==2.5.3
+
+# jiwer — calculates Word Error Rate (WER)
+jiwer==3.1.0
+
+# pytest — our test runner
+pytest==8.3.5
+
+# python-dotenv — safely loads API keys from .env file
+python-dotenv==1.1.1
+
+# deepeval — scores LLM output quality
+# Using latest version which supports pytest 8.x
+deepeval==4.1.4
+
+# httpx — makes clean HTTP requests to APIs in our tests
+httpx==0.28.1

@@ -1,0 +1,19 @@
+# Virtual environment — never push this
+venv/
+
+# API keys — never push this
+.env
+
+# Python cache files — not needed on GitHub
+__pycache__/
+*.pyc
+*.pyo
+
+# Test result cache
+.pytest_cache/
+
+# Mac system file — useless on GitHub
+.DS_Store
+
+# Results folder — contains local output only
+results/
