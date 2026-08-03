@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 # Load API keys from .env file
 load_dotenv()
 
-# ── STT: Speech to Text ──────────────────────────────────────────────────────
+# STT: Speech to Text
 
 def transcribe_audio(audio_file_path: str) -> dict:
     """
@@ -36,11 +36,11 @@ def transcribe_audio(audio_file_path: str) -> dict:
     url = "https://api.deepgram.com/v1/listen"
 
     # Parameters we send to Deepgram:
-    # - model: nova-2 is Deepgram's most accurate model, included in free tier
+    # - model: nova-3 is Deepgram's current flagship model — 54% better WER than nova-2
     # - smart_format: cleans up punctuation and formatting automatically
     # - language: en-IN targets Indian English accent — relevant for our use case
     params = {
-        "model": "nova-2",
+        "model": "nova-3",
         "smart_format": "true",
         "language": "en-IN"
     }
@@ -95,7 +95,7 @@ def transcribe_audio(audio_file_path: str) -> dict:
     }
 
 
-# ── LLM: Language Model Response ─────────────────────────────────────────────
+# ── LLM: Language Model Response
 
 def get_llm_response(transcript: str, system_prompt: str = None) -> dict:
     """
@@ -151,7 +151,7 @@ def get_llm_response(transcript: str, system_prompt: str = None) -> dict:
     }
 
 
-# ── Full Pipeline ─────────────────────────────────────────────────────────────
+# ── Full Pipeline
 
 def run_pipeline(audio_file_path: str, system_prompt: str = None) -> dict:
     """
