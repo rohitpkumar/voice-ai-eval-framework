@@ -16,4 +16,4 @@ __pycache__/
 .DS_Store
 
 # Results folder — contains local output only
-results/
+results/fixtures/*.mp3
