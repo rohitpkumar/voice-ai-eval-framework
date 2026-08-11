@@ -186,14 +186,8 @@ Stripping punctuation before WER calculation is standard benchmarking practice.
 ## Why This Framework Is Model-Agnostic
 
 The test suite evaluates pipeline behaviour — not specific model outputs.
-The same tests apply directly to:
-
-- **Whissle** — META-1 model (STT + emotion + intent in one pass)
-- **Smallest AI** — Pulse (STT) + Electron (LLM) + Lightning (TTS)
-- **Bolna AI** — Indian language voice pipeline (10+ languages)
-- **Vaani AI** — 18TB Indian speech data, contact centre focus
-
-Swap the API endpoint. Run the same tests. Get comparable metrics.
+Swap the API endpoint and run the same tests to get comparable metrics
+across any Voice AI pipeline architecture.
 
 ---
 
