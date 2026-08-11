@@ -48,30 +48,30 @@ The framework sits on top of this pipeline and evaluates every layer independent
 
 ## Project Structure
 
+```
 voice-ai-eval-framework/
 ├── agent/
-│ ├── voice_agent.py # Core STT + LLM pipeline
-│ └── smoke_test.py # Manual sanity check
+│   ├── voice_agent.py          # Core STT + LLM pipeline
+│   └── smoke_test.py           # Manual sanity check
 ├── fixtures/
-│ ├── generate_fixtures.py # Generates audio test files
-│ ├── basic_question.mp3 # "What are your business hours?"
-│ ├── account_balance.mp3 # "I want to check my account balance"
-│ ├── hindi_query.mp3 # Hindi language input
-│ ├── complaint.mp3 # "My order has not arrived"
-│ └── single_word.mp3 # "Yes"
+│   ├── generate_fixtures.py    # Generates audio test files
+│   ├── basic_question.mp3      # "What are your business hours?"
+│   ├── account_balance.mp3     # "I want to check my account balance"
+│   ├── hindi_query.mp3         # Hindi language input
+│   ├── complaint.mp3           # "My order has not arrived"
+│   └── single_word.mp3         # "Yes"
 ├── tests/
-│ ├── test_schema.py # Test 1 — Schema validation
-│ ├── test_asr_accuracy.py # Test 2 — WER accuracy
-│ ├── test_latency.py # Test 3 — P90 latency
-│ ├── test_edge_cases.py # Test 4 — Edge cases
-│ ├── test_llm_quality.py # Test 5 — LLM quality (deepeval)
-│ └── test_regression.py # Test 6 — Regression snapshots
-├── results/ # Saved baseline outputs
-├── .env # API keys (never committed)
+│   ├── test_schema.py          # Test 1 — Schema validation
+│   ├── test_asr_accuracy.py    # Test 2 — WER accuracy
+│   ├── test_latency.py         # Test 3 — P90 latency
+│   ├── test_edge_cases.py      # Test 4 — Edge cases
+│   ├── test_llm_quality.py     # Test 5 — LLM quality (deepeval)
+│   └── test_regression.py      # Test 6 — Regression snapshots
+├── results/                    # Saved baseline outputs
+├── .env                        # API keys (never committed)
 ├── .gitignore
 └── requirements.txt
-
----
+```
 
 ## Setup
 
