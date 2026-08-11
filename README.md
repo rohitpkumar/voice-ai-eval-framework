@@ -4,8 +4,8 @@ An end-to-end QA evaluation framework for Voice AI pipelines.
 Tests ASR accuracy, latency, LLM response quality, and edge cases
 across a Deepgram STT + OpenAI LLM pipeline.
 
-Built as a portfolio project targeting AI QA / AI Evaluation Engineer
-roles at Voice AI startups — Whissle, Smallest AI, Bolna, Vaani AI.
+Built to demonstrate practical AI QA and evaluation engineering skills
+across real-world Voice AI pipeline architectures.
 
 ---
 
