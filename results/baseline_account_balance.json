@@ -1,0 +1,7 @@
+{
+  "audio_file": "fixtures/account_balance.mp3",
+  "transcript": "I want to check my account balance, please.",
+  "confidence": 1.0,
+  "timestamp": "2026-08-14T11:35:51.637961",
+  "note": "Baseline snapshot \u2014 do not edit manually"
+}

@@ -1,0 +1,7 @@
+{
+  "audio_file": "fixtures/basic_question.mp3",
+  "transcript": "What are your business hours?",
+  "confidence": 0.99316406,
+  "timestamp": "2026-08-14T11:35:50.315019",
+  "note": "Baseline snapshot \u2014 do not edit manually"
+}
