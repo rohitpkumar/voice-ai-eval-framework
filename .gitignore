@@ -16,4 +16,10 @@ __pycache__/
 .DS_Store
 
 # Results folder — contains local output only
-results/fixtures/*.mp3
+results/
+
+# Generated audio fixtures — created locally by generate_fixtures.py
+fixtures/*.mp3
+
+# Deepeval cache folder
+.deepeval/
