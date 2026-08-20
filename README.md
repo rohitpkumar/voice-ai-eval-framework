@@ -393,12 +393,11 @@ Indicates a model update changed transcription behaviour.
 
 ---
 
-## Final Test Scorecard
-
-> **Note:** 
-> All test results below are from a local test environment
+> **Note:** All test results are from a local test environment
 > using REST API calls. Actual numbers may vary based on network
 > conditions, API server load, and model version updates.
+
+## Final Test Scorecard
 
 | Test Suite | Tests | Passed | Failed |
 |---|---|---|---|
